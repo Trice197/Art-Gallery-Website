@@ -46,7 +46,10 @@ a {
   margin-left:-350px;
   width: 90%;
 }
-
+.street {
+  color: #d5966c;
+  font-size: 36px;
+}
 .dark-card {
   position: relative;
   width: 570px;
@@ -138,6 +141,26 @@ footer {
   color: #fff;
   padding: 0 1rem;
   /* margin: 0 1rem; */
+}
+
+.location-footer {
+  background-color: #d5966c;
+  color: #151515;
+  padding: 0 1rem;
+  /* margin: 0 1rem; */
+}
+
+.location-icons {
+  margin: 0rem 1rem;
+  color: #151515;
+
+  padding-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+.location-text {
+  font-size: 70px;
+    text-transform: uppercase;
 }
 
 .text {
