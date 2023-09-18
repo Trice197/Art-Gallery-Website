@@ -12,7 +12,7 @@ body{
 
 .map{
     height: 140vh;
-    background-image: url('./starter-code/assets/mobile/image-map.png');
+    background-image: url('../starter-code/assets/desktop/image-map.png');
     background-repeat: no-repeat; 
     background-size: cover;
 }
@@ -95,7 +95,7 @@ body{
 
 @media screen and (min-width:768px) {
     .map{
-        background-image: url('./starter-code/assets/tablet/image-map.png');
+        background-image: url('../starter-code/assets/tablet/image-map.png');
     }
 
     .btns{
@@ -152,7 +152,7 @@ body{
 
 @media screen and (min-width:989px) {
     .map{
-        background-image: url('./starter-code/assets/desktop/image-map.png');
+        background-image: url('../starter-code/assets/desktop/image-map.png');
         /* background-position-x: right;
         background-position-y: top;
         background-position-x: left; */
